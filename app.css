@@ -1,0 +1,88 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+#r5-3 {
+  flex-grow: 1;
+}
+
+#r1-1 {
+  flex-grow: 1;
+}
+
+.row button {
+  width: 50px;
+  height: 50px;
+  margin: 1px;
+  background-color: #091921;
+  color: black;
+  border: 0.1px solid #07171f;
+  color: white;
+}
+
+.row button:hover {
+  transition: 0.4s;
+  background-color: #18ac76;
+}
+
+.row button:active {
+  transition: 0ms;
+  background-color: hsl(158, 74%, 23%);
+}
+
+#r5-1 {
+  width: 48px;
+  height: 50px;
+}
+
+#r5-2 {
+  width: 48px;
+}
+
+#r1-2,
+#r1-3 {
+  width: 48px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#output {
+  flex-grow: 1;
+  height: 50px;
+  border: none;
+  margin-bottom: 1px;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #07171f;
+}
+
+#r5-3 {
+  background-color: hsl(37, 100%, 47%);
+  color: white;
+  border: 0.1px solid #07171f;
+}
+
+#r5-3:active {
+  transition: 0ms;
+  background-color: hsl(37, 89%, 31%);
+}
